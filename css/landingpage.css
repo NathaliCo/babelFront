@@ -7,6 +7,7 @@ body{
     font-family: 'Montserrat-Medium';
 }
 
+
 #video_background {
     position: relative;
     bottom: 0px;
@@ -16,4 +17,58 @@ body{
     width: auto;
     height: auto;
     z-index: -1000;
+
+}
+
+.titulo {
+    width: 800px;
+    height: 70px;
+    padding-left: 80px;
+    padding-top: 20px;
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+    grid-template-rows: repeat(2, 300px);
+    grid-auto-rows: 300px;
+    padding: 20px 50px 20px 50px;
+
+}
+
+.fa-container {
+    background-color: #996F65;
+    width: 100%;
+    height: auto;
+}
+
+.grid-item {
+    border: transparent 2px #000;
+    padding: 25px;
+    color: #5B423B;
+
+}
+
+.camada {
+    display: flex;
+    background-color: #F7DCD2;
+    width: auto;
+    height: 100%;
+    border-top-right-radius: 20%;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 30px;
+    text-align: center;
+
+}
+
+.picture {
+    width: 130px;
+    height: 200px;
+    z-index: 100;
+    position: absolute;
+    padding: 23px;
+
 }
